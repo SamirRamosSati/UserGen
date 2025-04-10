@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>User Generator</h1>
+        
+        <div class="user-card">
+            
+            <img src="https://via.placeholder.com/120" alt="User Photo" class="user-photo" id="userPhoto">
+            
+            
+            <div class="user-details">
+                <div class="user-name" id="userName">Loading...</div>
+                
+                <div class="user-info">
+                    <span class="label">Email:</span>
+                    <span class="user-email" id="userEmail">-</span>
+                </div>
+                
+                <div class="user-info">
+                    <span class="label">Location:</span>
+                    <span class="user-location" id="userLocation">-</span>
+                </div>
+                
+                <div class="user-info">
+                    <span class="label">Coordinates:</span>
+                    <span class="user-coordinates" id="userCoordinates">-</span>
+                </div>
+                
+                <div class="user-info">
+                    <span class="label">Timezone:</span>
+                    <span class="user-timezone" id="userTimezone">-</span>
+                </div>
+                
+                <div class="user-info">
+                    <span class="label">Born date:</span>
+                    <span class="user-dob" id="userDob">-</span>
+                </div>
+            </div>
+        </div>
+        
+        <button id="generateUser">Generate new user</button>
+    </div>
+
+    <script src="script.js"></script>
+    </script>
+</body>
+</html>
